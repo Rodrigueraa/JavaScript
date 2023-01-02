@@ -41,7 +41,7 @@ for (let i = 0; i < 5; i++){
 
 const media = function(){
     var total = 0;
-    for (let i = 0; i < 4; i++){
+    for (let i = 0; i < funcionario.length; i++){
         total += funcionario[i].getSal()
     }
     return total / funcionario.length
