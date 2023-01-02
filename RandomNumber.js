@@ -6,3 +6,5 @@ function rand({min, max}){
 const num = {min: 0, max: 51}
 
 console.log(rand(num))
+
+//Using Destructig in object's level
