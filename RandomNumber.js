@@ -3,6 +3,6 @@ function rand({min, max}){
     return Math.floor(valor)
 }
 
-const num = {min: 0, max: 50}
+const num = {min: 0, max: 51}
 
 console.log(rand(num))
