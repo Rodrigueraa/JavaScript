@@ -19,3 +19,14 @@ function rand({min = 0, max = 51}){
 const num = {min: 0, max: 51}
 console.log(rand(num))
 
+function parOuImpar({min= 1, max= 20}){
+    var numero = Math.floor(Math.random() * (max - min))
+    if (numero % 2 === 0){
+        console.log(numero)
+        return true
+    }
+    console.log(numero)
+    return false
+}
+
+console.log(parOuImpar({min: 1, max: 21}) ? "Par" : "Impar")
